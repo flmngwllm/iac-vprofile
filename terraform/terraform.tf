@@ -31,8 +31,8 @@ terraform {
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
-
-  required_version = "~> 1.6.3"
+//1.6.3 was the version before i had to change to delete
+  required_version = "~> 1.5.1"  
 }
 ##
 
